@@ -64,11 +64,15 @@ ul {
 }
 
 .headline {
+  display: flex;
+  flex-direction: column;
   background-image: url("image/header-shapes-mobile.png");
   border-bottom-left-radius: 60px;
 }
 
 .headline-2 {
+  display: flex;
+  flex-direction: column;
   background-image: none;
   border-bottom-left-radius: 60px;
 }

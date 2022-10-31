@@ -180,15 +180,17 @@ ul {
 }
 
 .tags {
-  display: flex;
-  gap: 8px;
-  align-items: center;
+  display: block;
+
+  /* gap: 8px;
+  align-items: center; */
 }
 
 .tags .tag {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
+  /* display: flex; */
+  /* flex-direction: row;
+  align-items: center; */
+  float: left;
   padding: 4px 12px;
   background: #ebebff;
   border-radius: 8px;

@@ -273,6 +273,7 @@ ul {
   justify-content: space-between;
   padding: 18px 12px;
 }
+
 .contacte {
   background-color: #6070ff;
   background-image: url("image/contact-form-shapes-mobile.png");
@@ -290,6 +291,7 @@ ul {
   text-align: center;
   color: #fffefe;
 }
+
 .project-text2 {
   font-style: normal;
   font-weight: 400;
@@ -341,6 +343,7 @@ ul {
   text-align: center;
   letter-spacing: 0.03em;
   color: #6070ff;
+  margin-left: 25%;
 }
 
 .btn-default:hover {
@@ -349,5 +352,5 @@ ul {
 }
 
 .shaps {
-  padding-left: 30%;
+  padding-left: 25%;
 }

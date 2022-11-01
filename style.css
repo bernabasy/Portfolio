@@ -273,7 +273,23 @@ ul {
   justify-content: space-between;
   padding: 18px 12px;
 }
+.contacte {
+  background-color: #6070ff;
+  background-image: url("image/contact-form-shapes-mobile.png");
+  background-position: 150px 15px;
+  background-repeat: no-repeat;
+  border-top-left-radius: 60px;
+  height: 779px;
+  width: 100%;
+}
 
+.title-2 {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 28px;
+  text-align: center;
+  color: #fffefe;
+}
 .project-text2 {
   font-style: normal;
   font-weight: 400;

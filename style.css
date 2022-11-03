@@ -526,6 +526,7 @@ ul {
     padding-left: 14px;
     padding-right: 14px;
   }
+  
 
   .card-work {
     display: flex;
@@ -536,7 +537,9 @@ ul {
     border-radius: 16px;
     border: 1px solid white;
     background-color: white;
-    height: 496px;
+  }
+  .card-work :active {
+    border: 1px blue;
   }
 
   .tonic-img {
@@ -545,6 +548,11 @@ ul {
 
   .tonic-img-desctop {
     display: block;
+    width: 100%;
+    height: auto;
+  }
+  .width100 {
+    width: 100%;
     height: auto;
   }
 
@@ -553,12 +561,14 @@ ul {
     padding-left: 5%;
     padding-top: 5%;
     height: 448px;
+    width: 50%;
   }
 
   .right-block {
     display: flex;
     align-items: center;
     justify-content: stretch;
+    width: 48%;
   }
 
   .cointiner-for-mobile-2 {
@@ -586,8 +596,15 @@ ul {
     border: 1px solid white;
   }
 
+  .card-work-desktop-3 :active {
+    border-radius: 1px blue;
+  }
+  .width50{
+    width: 50%;
+  }
+
   .container-img-big {
-    /* width: 46%; */
+   width: 50%;
     height: auto;
   }
 
@@ -601,12 +618,20 @@ ul {
 
   .card-work-desktop-4 {
     display: flex;
-    height: auto;
+    height: 496px;
     width: 100%;
     padding: 16px;
     background-color: white;
     border-radius: 16px;
     border: 1px solid white;
+  }
+  
+  .imgd4 {
+    width: 50%;
+  }
+
+  .card-work-desktop-4 :active {
+    border: 1px solid rgb(3, 68, 247);
   }
 
   .card-work-desktop {

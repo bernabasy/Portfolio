@@ -414,9 +414,13 @@ ul {
   color: #fff;
 }
 
-/* .btn-default {
-  margin-left: 38%;
-} */
+.btn-default:active {
+  background-color: #2230d2;
+}
+
+.shaps {
+  padding-left: 25%;
+}
 
 @media (min-width: 768px) {
   .wrapper {
@@ -526,7 +530,6 @@ ul {
     padding-left: 14px;
     padding-right: 14px;
   }
-  
 
   .card-work {
     display: flex;
@@ -538,6 +541,7 @@ ul {
     border: 1px solid white;
     background-color: white;
   }
+
   .card-work :active {
     border: 1px blue;
   }
@@ -551,9 +555,14 @@ ul {
     width: 100%;
     height: auto;
   }
+
   .width100 {
     width: 100%;
     height: auto;
+  }
+  .width1001 {
+    width: 100%;
+    max-height: 460px;
   }
 
   .left-block {
@@ -599,12 +608,13 @@ ul {
   .card-work-desktop-3 :active {
     border-radius: 1px blue;
   }
-  .width50{
+
+  .width50 {
     width: 50%;
   }
 
   .container-img-big {
-   width: 50%;
+    width: 50%;
     height: auto;
   }
 
@@ -625,7 +635,7 @@ ul {
     border-radius: 16px;
     border: 1px solid white;
   }
-  
+
   .imgd4 {
     width: 50%;
   }
@@ -716,5 +726,10 @@ ul {
     gap: 24px;
     width: 550px;
     height: 577px;
+  } 
+
+  .shaps {
+   display: none;
   }
+  
 }

@@ -560,6 +560,7 @@ ul {
     width: 100%;
     height: auto;
   }
+
   .width1001 {
     width: 100%;
     max-height: 460px;
@@ -726,10 +727,9 @@ ul {
     gap: 24px;
     width: 550px;
     height: 577px;
-  } 
+  }
 
   .shaps {
-   display: none;
+    display: none;
   }
-  
 }

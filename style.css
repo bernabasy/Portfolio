@@ -24,32 +24,26 @@ header {
   height: 48px;
 }
 
-.logo {
-  display: flex;
-  flex-direction: row;
-  align-items: center;
-  padding: 10px 12px;
-  margin-left: 12px;
-  margin-top: 4px;
-}
-
-.logo a {
+.logo-a {
   text-decoration: none;
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
   color: #6070ff;
+  padding: 20px;
+}
+
+.header-nav {
+  display: none;
+}
+
+.image-des {
+  display: flex;
+  width: 100%;
 }
 
 nav {
   padding: 8px;
-}
-
-.menu-icon {
-  width: 24px;
-  height: 24px;
-  margin-right: 12px;
-  cursor: pointer;
 }
 
 section {
@@ -66,18 +60,14 @@ ul {
 .headline {
   background-image: url("image/header-shapes-mobile.png");
   border-bottom-left-radius: 60px;
-}
-
-.headline-2 {
-  background-image: none;
-  border-bottom-left-radius: 60px;
+  background-color: white;
 }
 
 .title {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 38px;
   line-height: 52px;
-  color: #172b4d;
+  color: #091e42;
 }
 
 .details {
@@ -102,24 +92,33 @@ ul {
   gap: 20px;
 }
 
+/* style for work section */
+
+/* 1st conitainer of works section startes here */
+
 .works {
   display: grid;
   grid-template-columns: 1fr;
-  width: 375px;
-  height: 2788px;
+  width: 100%;
+  max-height: 2788px;
   top: 718px;
   padding: 114px 24px;
   gap: 88px;
   align-items: center;
 }
 
-.card {
+.card-work {
   display: flex;
   flex-direction: column;
+  justify-content: center;
   padding: 16px;
   gap: 12px;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
+}
+
+.tonic-img-desctop {
+  display: none;
 }
 
 .left-block,
@@ -128,11 +127,11 @@ ul {
   flex-direction: column;
   align-items: flex-start;
   padding: 0;
-  gap: 12px;
+  gap: 16px;
 }
 
 .project-title {
-  font-weight: 700;
+  font-weight: 700px;
   font-style: normal;
   font-size: 36px;
   line-height: 44px;
@@ -147,7 +146,7 @@ ul {
 }
 
 .header-details .client {
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 13px;
   line-height: 16px;
   color: #172b4d;
@@ -155,7 +154,7 @@ ul {
 
 .header-details .role,
 .header-details .year {
-  font-weight: 600;
+  font-weight: 600px;
   font-size: 13px;
   line-height: 16px;
   color: #7a869a;
@@ -169,10 +168,11 @@ ul {
 }
 
 .project-details {
-  font-weight: 400;
+  font-weight: 400px;
   font-size: 15px;
   line-height: 24px;
   color: #344563;
+  width: 96%;
 }
 
 .tags {
@@ -193,6 +193,27 @@ ul {
   font-size: 12px;
   line-height: 16px;
   letter-spacing: 0.03em;
+}
+
+/* commen class and 1st conitainer of works section endes */
+
+/* second coinatiner of works class startes here */
+
+.card-work-desktop-2 {
+  display: none;
+  width: 100%;
+}
+
+/* 3rd container of works section startes here */
+
+.card-work-desktop-3 {
+  display: none;
+}
+
+/* 4th scontainer of works section  startes here */
+
+.card-work-desktop-4 {
+  display: none;
 }
 
 .action {
@@ -222,12 +243,53 @@ ul {
   color: #fff;
 }
 
-.about {
+.headline-2 {
+  background-image: none;
+  border-bottom-left-radius: 60px;
+  display: grid;
+  grid-template: row 1fr 1fr;
+  gap: 24px;
+  margin-top: -100px;
   border-top-right-radius: 60px;
+}
+
+.title-about {
+  font-weight: 700;
+  font-size: 40px;
+  line-height: 52px;
+  color: #172b4d;
+}
+
+.details-2 {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #344563;
+  letter-spacing: 0.37px;
+  margin-bottom: 20px;
+  margin-top: 10px;
+}
+
+.contact-title-2 {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 24px;
+  color: #7f8cff;
+  text-decoration: none;
+}
+
+.social-media-2 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+  text-decoration: none;
+  list-style: none;
+  display: flex;
+  gap: 20px;
 }
 
 .skill-list {
   padding: 12px;
+  padding-left: 1px;
 }
 
 .skill-title {
@@ -274,7 +336,9 @@ ul {
   padding: 18px 12px;
 }
 
-.contacte {
+/* contacte for startes here */
+
+.contacte-me {
   background-color: #6070ff;
   background-image: url("image/contact-form-shapes-mobile.png");
   background-position: 150px 15px;
@@ -347,7 +411,7 @@ ul {
 
 .btn-default:hover {
   background: transparent;
-  color: #ffff;
+  color: #fff;
 }
 
 .btn-default:active {
@@ -356,4 +420,316 @@ ul {
 
 .shaps {
   padding-left: 25%;
+}
+
+@media (min-width: 768px) {
+  .wrapper {
+    width: 100%;
+    align-items: center;
+    max-height: 5125px;
+    background: #f8f7f7;
+  }
+
+  header {
+    height: 72px;
+  }
+
+  .logo-a {
+    font-style: normal;
+    padding: 20px;
+    padding-left: 100px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 20px;
+    display: flex;
+    color: #5e70f4;
+  }
+
+  .header-nav {
+    display: flex;
+    justify-content: space-between;
+    list-style: none;
+    gap: 15px;
+    padding-right: 150px;
+  }
+
+  .image-des {
+    display: none;
+  }
+
+  section {
+    display: grid;
+    grid-template-rows: 1fr;
+    padding: 114px 24px;
+    gap: 12px;
+  }
+
+  .headline {
+    height: 916px;
+    border-bottom-left-radius: 60px;
+    background-repeat: no-repeat;
+    background-image: url("image/desiktop-images/Header-bg-2.svg");
+    background-size: 100%;
+    background-position: 50% 50%;
+  }
+
+  .left-box-about-myself {
+    width: 40%;
+  }
+
+  .right-box-of-about-myself {
+    width: 53%;
+  }
+
+  .title {
+    font-weight: 700;
+    font-size: 48px;
+    letter-spacing: 0.37px;
+    margin-left: 13%;
+    padding-top: 13%;
+    line-height: 52px;
+    color: #172b4d;
+  }
+
+  .details {
+    font-weight: 400;
+    font-size: 25px;
+    line-height: 30px;
+    color: #344563;
+    max-width: 920px;
+    margin-left: 13%;
+  }
+
+  .contact-title {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #0d24f6;
+    text-decoration: none;
+    padding-left: 13%;
+  }
+
+  .social-media {
+    text-decoration: none;
+    list-style: none;
+    gap: 20px;
+    padding-left: 13%;
+    margin-bottom: 300px;
+  }
+
+  .works {
+    display: grid;
+    grid-template-columns: 1fr;
+    width: 90%;
+    max-height: 2788px;
+    top: 718px;
+    align-items: center;
+    gap: 142px;
+    margin-right: auto;
+    margin-left: auto;
+    padding-left: 14px;
+    padding-right: 14px;
+  }
+
+  .card-work {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding: 16px;
+    gap: 12px;
+    border-radius: 16px;
+    border: 1px solid white;
+    background-color: white;
+  }
+
+  .card-work :active {
+    border: 1px blue;
+  }
+
+  .tonic-img {
+    display: none;
+  }
+
+  .tonic-img-desctop {
+    display: block;
+    width: 100%;
+    height: auto;
+  }
+
+  .width100 {
+    width: 100%;
+    height: auto;
+  }
+
+  .width1001 {
+    width: 100%;
+    max-height: 460px;
+  }
+
+  .left-block {
+    background-color: #fff;
+    padding-left: 5%;
+    padding-top: 5%;
+    height: 448px;
+    width: 50%;
+  }
+
+  .right-block {
+    display: flex;
+    align-items: center;
+    justify-content: stretch;
+    width: 48%;
+  }
+
+  .cointiner-for-mobile-2 {
+    display: none;
+  }
+
+  .card-work-desktop-2 {
+    display: flex;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid white;
+  }
+
+  .mobile-vertion-for-conitainer-3-of-works {
+    display: none;
+  }
+
+  .card-work-desktop-3 {
+    display: flex;
+    justify-content: center;
+    padding: 16px;
+    background-color: #fff;
+    border-radius: 16px;
+    border: 1px solid white;
+  }
+
+  .card-work-desktop-3 :active {
+    border-radius: 1px blue;
+  }
+
+  .width50 {
+    width: 50%;
+  }
+
+  .container-img-big {
+    width: 50%;
+    height: auto;
+  }
+
+  .image-curser {
+    padding-right: 100px;
+  }
+
+  .mobile-vertio-container-4 {
+    display: none;
+  }
+
+  .card-work-desktop-4 {
+    display: flex;
+    height: 496px;
+    width: 100%;
+    padding: 16px;
+    background-color: white;
+    border-radius: 16px;
+    border: 1px solid white;
+  }
+
+  .imgd4 {
+    width: 50%;
+  }
+
+  .card-work-desktop-4 :active {
+    border: 1px solid rgb(3, 68, 247);
+  }
+
+  .card-work-desktop {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+  }
+
+  .headline-2 {
+    background-image: none;
+    max-height: 916px;
+    display: flex;
+    flex-direction: row;
+    padding-inline: 5%;
+    justify-content: space-around;
+    background-color: white;
+    border-top-right-radius: 60px;
+  }
+
+  .title-about {
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 60px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.37px;
+  }
+
+  .contact-title-2 {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 24px;
+    color: #7f8cff;
+    text-decoration: none;
+    padding-left: 1%;
+  }
+
+  .social-media-2 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    gap: 20px;
+  }
+
+  .language-list {
+    display: flex;
+    flex-direction: row;
+    gap: 3%;
+  }
+
+  .language-list li {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 16px;
+    padding: 12px;
+    background: #f7f7f9;
+    border-radius: 8px;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 20px;
+  }
+
+  .contacte-me {
+    background-color: #6070ff;
+    background-image: url("image/desiktop-images/contact-form-background-shapes.png");
+    background-position: 100px 60px;
+    background-repeat: no-repeat;
+    border-top-left-radius: 60px;
+    height: 846px;
+    width: 100%;
+    background-size: 85%;
+  }
+
+  .contact-me-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30%;
+    gap: 24px;
+    width: 550px;
+    height: 577px;
+  }
+
+  .shaps {
+    display: none;
+  }
 }

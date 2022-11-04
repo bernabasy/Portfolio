@@ -4,26 +4,26 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="style.css" />
     <title>Portfolio</title>
   </head>
   <body>
     <div class="wrapper">
       <header>
-        <div class="logo">
-          <a href="#"
-          ><img src="image/My-Logo.png" alt="my logo"
-        /></a> </div>
-         <div class="logo a"></div>
-        <nav>
-         <div class="menu-icon"> 
-            <img src="image/Union.png" alt="menu button"/>
-         </div>
-        </nav>
+             <div class="logo-a"> My logo</div>
+             <nav>
+              <ul class="header-nav">
+                <li>Portoflio</li>
+                <li>About</li>
+                <li>Contact</li>
+              </ul>
+             <img class="image-des" src="image/Union.png" alt="menu button"/>
+          </nav>
       </header>
       <main>
         <section class="headline">
-          <h1 class="title">I’m Bernabas Glad to see you!</h1>
+          <h1 class="title">I’m Bernabas <br> Glad to see you!</h1>
           <p class="details">
             I’m a software developer! I can help you build a product , feature
             or website Look through some of my work and experience! If you like
@@ -56,11 +56,19 @@
             </li>
           </ul>
         </section>
+
+           <!-- ende of head line section -->
+
         <section class="works">
-          <div class="card work">
-               <figure>
+          <div class="card-work">
+            <div class="right-block">
+               <figure class="tonic-img">
               <img src="image/tonic.png" alt=" " />
             </figure>
+            <figure class="tonic-img-desctop"> 
+              <img class="width100"  src="image/left-big-img-for-tonic.png" alt=" ">
+            </figure>
+           </div>
             <div class="left-block">
               <div class="project-text">
                 <h2 class="project-title">Tonic</h2>
@@ -86,11 +94,14 @@
               </div>
             </div>
           </div>
-          <article class="card work">
-            <figure>
+            <!-- 1st conitainer in work section ends  -->
+
+           <article class="card work">
+             <div class="cointiner-for-mobile-2">
+             <figure class="work-stories-img">
               <img src="image/multi.png" alt=" " />
-            </figure>
-            <div class="left-block">
+             </figure>
+             <div class="left-block">
               <div class="project-header">
                 <h2 class="project-title">  Multi-Post Stories</h2>
                 <div class="header-details">
@@ -113,9 +124,51 @@
               <div class="action">
                 <button class="project-button" type="button">See Project</button>
               </div>
+             </div>
             </div>
+           
+              <!-- desktop vertion -->
+
+            <article class="card-work-desktop-2">
+              <div class="left-block">
+              <div class="project-text">
+                <h2 class="project-title">Multi-Post Stories</h2>
+                <div class="header-details">
+                  <p class="client">FACEBOOK</p>
+                  <span class="counter"></span>
+                  <p class="role">Full Stack Dev</p>
+                  <span class="counter"></span>
+                  <p class="year">2015</p>
+                </div>
+              </div>
+              <p class="project-details">
+                Experimental content creation feature that allows 
+                users to add to an existing story over the course of a day without
+                 spamming their friends.
+              </p>
+              <ul class="tags">
+                <li class="tag">html</li>
+                <li class="tag">Ruby on rails</li>
+                <li class="tag">css</li>
+                <li class="tag">javaScript</li>
+              </ul>
+              <div class="action">
+                <button class="project-button" type="button">See Project</button>
+              </div>
+             </div>
+             <div>
+             <figure class="width100">
+              <img class="width100" src="image/desiktop-images/Portfolio-art.desktop.png" alt=" " />
+            </figure>
+           </div>
+           </article>  
           </article>
+
+          <!-- second conitainer in work section ends  -->
+            <!-- container 3 of works section starts here -->
+         
           <article class="card work">
+            <div class="mobile-vertion-for-conitainer-3-of-works">
             <figure>
               <img src="image/yoga.png" alt=" " />
             </figure>
@@ -143,8 +196,50 @@
                 <button class="project-button" type="button">See Project</button>
               </div>
             </div>
+           </div>
+
+                 <!-- desktop vertion starts here -->
+
+           <div class="card-work-desktop-3">
+                <div class="container-img-big">
+                 <figure>
+                  <img class="width100" src="image/desiktop-images/image-for-3rd-conitainer-big.png" alt="  " />
+                 </figure>
+               </div>
+             <div class="left-block">
+             <div class="project-text">
+               <h2 class="project-title">Facebook 360</h2>
+               <div class="header-details">
+                 <p class="client">FACEBOOK</p>
+                 <span class="counter"></span>
+                  <p class="role">Full Stack Dev</p>
+                 <span class="counter"></span>
+                 <p class="year">2015</p>
+               </div>
+              </div>
+                 <p class="project-details">
+                Exploring the future of media in Facebook's first Virtual
+                Reality app; a place to discover and enjoy 360 photos 
+                and videos on Gear VR.
+             </p>
+             <ul class="tags">
+              <li class="tag">html</li>
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">javaScript</li>
+              </ul>
+             <div class="action">
+              <button class="project-button" type="button">See Project</button>
+            </div>
+             </div>
+            </div>
           </article>
+             <!-- ende of coinainer 3 of works section  -->
+              
+            <!-- last part in works section,or post hisiory starts here -->
+          
           <article class="card work">
+            <div class="mobile-vertio-container-4">
             <figure>
               <img src="image/art.png" alt=" " />
             </figure>
@@ -172,18 +267,59 @@
                 <button class="project-button" type="button">See Project</button>
               </div>
             </div>
-          </article>
-        </section>
-        <section class="headline-2">
-          <h1 class="title">About Myself</h1>
-          <p class="details">
+           </div>
+                      <!-- desktop vertion  -->
+          
+           <div class="card-work-desktop-4">
+            <div class="left-block">
+            <div class="project-text">
+              <h2 class="project-title">Uber Navigation</h2>
+              <div class="header-details">
+                <p class="client">Uber</p>
+                <span class="counter"></span>
+                <p class="role">Lead Developer</p>
+                <span class="counter"></span>
+                <p class="year">2018</p>
+              </div>
+            </div>
+            <p class="project-details">
+              A smart assistant to make driving more safe,
+               efficient, and    fun by unlocking your most expensive
+                computer: your car.
+            </p>
+            <ul class="tags">
+              <li class="tag">html</li>
+              <li class="tag">Ruby on rails</li>
+              <li class="tag">css</li>
+              <li class="tag">javaScript</li>
+            </ul>
+            <div class="action">
+              <button class="project-button" type="button">See Project</button>
+            </div>
+            </div>
+            <div class="width50" >
+             <figure>
+            <img class="width1001" src="image/desiktop-images/desktop-vertion-big-image-for-c-4.png" alt=" " />
+             </figure>
+           </div>
+          </div> 
+        </article>
+      </section>
+
+         <!-- about my self section starts here down -->
+
+         <section class="headline-2">
+          <div class="left-box-about-myself">
+           <h1 class="title-about">About<br> Myself</h1>
+           <p class="details-2">
             Hello I’m a software developer! I can help you build a product ,
             feature or website Look through some of my work and experience! If
             you like what you see and have a project you need coded, don’t
             hestiate to contact me.
-          </p>
-          <a class="contact-title" href="#">LET’S CONNECT</a>
-            <ul class="social-media">
+           </p>
+          
+            <a class="contact-title-2" href="#">LET’S CONNECT</a>
+            <ul class="social-media-2">
               <li>
                 <a href="#"
                   ><img src="image/tw.png" alt="Twitter"
@@ -213,12 +349,16 @@
               </li>
             </ul>
             <button class="project-button" type="button">Get my resume</button>
-            <ul class="skill-list">
+          </div>
+          <div class="right-box-of-about-myself">
+           <ul class="skill-list">
             <li class="my-skill">
               <div class="skill-container">
                 <h3 class="skill-title">Languages</h3>
-                 <img src="image/chev-dow.svg" alt="" />
-                </div>
+                <button class="btn-chev" type="button">
+                  <img src="image/chev-dow.svg" alt="" />
+                </button>
+              </div>
               <ul class="language-list">
                 <li>
                   <img src="image/javascript.svg" alt="JavaScript" />
@@ -252,9 +392,14 @@
               </div>
               <div class="separator-line"></div>
             </li>
-          </ul>
+           </ul>
+         </div>
         </section>
-        <section class="contacte">
+         
+            <!-- contact me section -->
+
+        <section class="contacte-me">
+          <div class="contact-me-container">
           <h2 class="title-2">Contact me</h2>
           <div class="project-text2">
              <p>If you have an application you
@@ -263,7 +408,6 @@
                a project that needs coding. I’d
                 love to help with it </p>
           </div>
-          <!--good job so far on contact form-->
           <form class="contacte-form" action="https://formspree.io/f/mbjblvjw" method="post">
              <input type="text" name="username" maxlength="30" placeholder="   Yeremias" required >
              <input type="email" name="email-address" placeholder="   natajayanj14@gmail.com" required >
@@ -276,8 +420,9 @@
               required
              ></textarea>
              <button class="btn-default" type="submit">Get It Touch</button>
+             <div class="shaps"><img src="image/Shape.png" alt=""></div>
           </form>
-          <div class="shaps"><img src="image/Shape.png" alt=""></div>
+        </div>
        </section>
       </main>
     </div>

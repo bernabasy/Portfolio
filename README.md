@@ -1,8 +1,10 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# poritipholio
+# portfolio
 
-> my poritipholio
+> my portfolio
+> -live vertion 
+https://bernabasy.github.io/poritipholio/
 
 
 ## Built With

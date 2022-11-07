@@ -3,8 +3,9 @@
 # portfolio
 
 > my portfolio
-> -live vertion 
-https://bernabasy.github.io/poritipholio/
+> 
+ # Live Link
+[Live Preview](https://bernabasy.github.io/poritipholio/)
 
 
 ## Built With

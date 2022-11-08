@@ -22,6 +22,7 @@ header {
   justify-content: space-between;
   align-items: center;
   height: 48px;
+  background-color: #ffffff;
 }
 
 .logo-a {
@@ -29,7 +30,7 @@ header {
   font-weight: 700;
   font-size: 18px;
   line-height: 20px;
-  color: #6070ff;
+  color: #6b6bee;
   padding: 20px;
 }
 
@@ -157,7 +158,8 @@ ul {
   font-weight: 600px;
   font-size: 13px;
   line-height: 16px;
-  color: #7a869a;
+  color: #2f2ff9;
+  background-color: #ebebff;
 }
 
 .counter {
@@ -186,9 +188,9 @@ ul {
   flex-direction: row;
   align-items: center;
   padding: 4px 12px;
-  background: #ebebff;
+  background: #f2f2fa;
   border-radius: 8px;
-  color: #6070ff;
+  color: #4859f6;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -274,7 +276,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #7f8cff;
+  color: #5565f5;
   text-decoration: none;
 }
 
@@ -406,7 +408,7 @@ ul {
   line-height: 141%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #6070ff;
+  color: #2d41f4;
 }
 
 .btn-default:hover {
@@ -442,7 +444,7 @@ ul {
     font-size: 18px;
     line-height: 20px;
     display: flex;
-    color: #5e70f4;
+    color:#6070ff;
   }
 
   .header-nav {

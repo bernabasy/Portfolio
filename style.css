@@ -158,8 +158,7 @@ ul {
   font-weight: 600px;
   font-size: 13px;
   line-height: 16px;
-  color: #2f2ff9;
-  background-color: #ebebff;
+  color: #25282e;
 }
 
 .counter {
@@ -190,7 +189,7 @@ ul {
   padding: 4px 12px;
   background: #f2f2fa;
   border-radius: 8px;
-  color: #4859f6;
+  color: #6070ff;
   font-weight: 500;
   font-size: 12px;
   line-height: 16px;
@@ -276,7 +275,7 @@ ul {
   font-weight: 500;
   font-size: 16px;
   line-height: 24px;
-  color: #5565f5;
+  color: #7f8cff;
   text-decoration: none;
 }
 
@@ -408,7 +407,7 @@ ul {
   line-height: 141%;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #2d41f4;
+  color: #6070ff;
 }
 
 .btn-default:hover {
@@ -444,7 +443,7 @@ ul {
     font-size: 18px;
     line-height: 20px;
     display: flex;
-    color:#6070ff;
+    color: #5e70f4;
   }
 
   .header-nav {

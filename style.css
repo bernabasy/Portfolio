@@ -60,7 +60,7 @@ header {
   align-items: center;
   justify-content: space-between;
   height: 40px;
-  gap: 40px;
+  gap: 12px;
   padding-right: 15px;
   transition: transform 0.2s;
   z-index: 99;
@@ -101,17 +101,21 @@ header {
     left: -100%;
     display: flex;
     flex-direction: column;
-    background: #6070ff;
+
+    /* background: #6070ff; */
     opacity: 0.95;
     text-align: left;
     transition: 0.5s;
-    padding-left: 150px;
+    padding-left: 100px;
     list-style: none;
     grid-column: 5px;
   }
 
   .nav-items.active {
-    padding-bottom: 450px;
+    padding-bottom: 850px;
+    mix-blend-mode: multiply;
+    background-color: #6070ff;
+    backdrop-filter: blur(8px);
     left: 0;
     width: 100%;
     margin-top: -8px;

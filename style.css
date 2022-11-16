@@ -137,6 +137,10 @@ header {
     margin-top: -30px;
   }
 
+  .btn-pop a {
+    text-decoration: none;
+  }
+
   .nav-items li a {
     font-family: inherit;
     font-style: normal;
@@ -870,7 +874,7 @@ ul {
   background: #fff;
   border: 1px solid #dfe1e6;
   border-radius: 16px;
-  max-height: 550px;
+  height: auto;
   overflow: auto;
 }
 
@@ -880,6 +884,20 @@ ul {
   font-family: 'Poppins', sans-serif;
   font-style: normal;
   font-weight: 500;
+}
+
+.did4popup {
+  display: flex;
+  flex-direction: row;
+  align-content: center;
+  padding: auto;
+  width: 40%;
+  gap: 10px;
+}
+
+.closesign1 {
+  padding-left: 95%;
+  font-size: 2.8vh;
 }
 
 .h2-pop {
@@ -918,17 +936,14 @@ ul {
   list-style: none;
   padding-left: 1px;
   margin-bottom: 3%;
+  width: 80%;
+  border-bottom-style: solid;
+  border-color: #ebecf0;
+  padding-bottom: 20px;
 }
 
 .ul-pop0 {
-  display: flex;
-  flex-direction: row;
-  gap: 2%;
-  list-style: none;
-  padding-left: 1px;
-  margin-bottom: 3%;
-
-  /* display: none; */
+  display: none;
 }
 
 .ul-pop1 {
@@ -937,6 +952,18 @@ ul {
   gap: 1%;
   list-style: none;
   padding-left: 1px;
+}
+
+.li-pop1:nth-child(4) {
+  display: none;
+}
+
+.li-pop1:nth-child(5) {
+  display: none;
+}
+
+.li-pop1:nth-child(6) {
+  display: none;
 }
 
 .ul-pop .li-pop {
@@ -956,7 +983,7 @@ ul {
   padding: 5px;
   border-radius: 10px;
   font-style: normal;
-  font-weight: 500;
+  font-weight: 200;
   letter-spacing: 0.03em;
 }
 
@@ -967,12 +994,20 @@ ul {
   border-radius: 8px;
   background-color: white;
   text-decoration: none;
+  white-space: nowrap;
 }
 
 .popdiv2 {
   display: flex;
   justify-content: space-between;
   grid-area: a;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.popdiv2 p {
+  font-size: 20px;
+  font-weight: 200;
 }
 
 #text {
@@ -1006,14 +1041,42 @@ ul {
   /* background-image: image/union.png; */
 }
 
-/* .btn-pop a {
-  text-decoration: none;
-} */
+.event-img {
+  display: block;
+}
+
+.event-img2 {
+  display: none;
+}
+
+.popdiv2big {
+  display: none;
+}
+
+.apender1 {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  padding-inline: 10px;
+}
+
+.popdiv2mob {
+  font-size: 20px;
+  font-weight: 600;
+}
 
 @media (min-width: 768px) {
   .did3bigpopup {
     display: flex;
     flex-direction: row;
+  }
+
+  .event-img {
+    display: none;
+  }
+
+  .event-img2 {
+    display: block;
   }
 
   .textpoup {
@@ -1035,6 +1098,7 @@ ul {
     padding: auto;
     width: 40%;
     gap: 10px;
+    padding-top: 15px;
   }
 
   .ul-pop0 {
@@ -1044,5 +1108,66 @@ ul {
     list-style: none;
     padding-left: 1px;
     margin-bottom: 3%;
+    border-bottom-style: solid;
+    border-color: #ebecf0;
+    padding-bottom: 20px;
+  }
+
+  .ul-pop {
+    display: flex;
+    flex-direction: row;
+    gap: 2%;
+    list-style: none;
+    padding-left: 1px;
+    margin-bottom: 3%;
+    border: none;
+    padding-bottom: 5px;
+    padding-top: 10px;
+  }
+
+  .li-pop {
+    background-color: #ebebff;
+    padding: 10px;
+    border-radius: 10px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 12px;
+    line-height: 16px;
+    letter-spacing: 0.03em;
+    color: #6070ff;
+  }
+
+  .li-pop1:nth-child(1) {
+    display: none;
+  }
+
+  .li-pop1:nth-child(2) {
+    display: none;
+  }
+
+  .li-pop1:nth-child(3) {
+    display: none;
+  }
+
+  .li-pop1:nth-child(4) {
+    display: block;
+  }
+
+  .li-pop1:nth-child(5) {
+    display: inline-block;
+  }
+
+  .li-pop1:nth-child(6) {
+    display: inline-block;
+  }
+
+  .popdiv2big {
+    display: block;
+    font-size: 32px;
+    font-weight: 600;
+  }
+
+  .popdiv2mob {
+    display: none;
   }
 }

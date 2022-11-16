@@ -310,7 +310,7 @@ ul {
 
 .button2:hover {
   background-color: #4658f5;
-  color: rgb(234, 26, 26);
+  color: rgb(255, 255, 255);
   border-radius: 8px;
   animation-name: rotate;
   animation-duration: 0.7s;
@@ -858,12 +858,13 @@ ul {
   margin-bottom: 20px;
 }
 
-.btn-modal:hover {
+/* .btn-modal:hover {
   background-color: #0004ff;
-}
+} */
 
 .btn-link {
   min-width: max-content;
+  text-decoration: none;
 }
 
 .icon-btn {

@@ -237,7 +237,7 @@ const createModal = () => {
     technologiesModal.appendChild(btnsModal);
 
     const btnSee = document.createElement('a');
-    btnSee.classList.add('button', 'btn-link');
+    btnSee.classList.add('button2', 'btn-link');
     btnSee.setAttribute('href', modal.linkLiveVersion);
     btnSee.innerText = 'See live';
     btnsModal.appendChild(btnSee);
@@ -249,7 +249,7 @@ const createModal = () => {
     btnSee.appendChild(seeIcon);
 
     const btnSource = document.createElement('a');
-    btnSource.classList.add('button', 'btn-link');
+    btnSource.classList.add('button2', 'btn-link');
     btnSource.setAttribute('href', modal.linkSource);
     btnSource.innerText = 'See Source';
     btnsModal.appendChild(btnSource);

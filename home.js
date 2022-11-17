@@ -283,3 +283,15 @@ modalsSection.addEventListener('click', (e) => {
     modal.forEach((element) => element.classList.add('hide'));
   }
 });
+
+const form = document.querySelector('.contacte-form');
+const word = document.querySelector('.msg');
+const Email = document.querySelector('.mail');
+form.addEventListener('submit', (e) => {
+  if (Email.value === Email.value.toLowerCase()) {
+    word.textContent = '';
+  } else {
+    e.preventDefault();
+    word.textContent = 'The email must be in lowercase';
+  }
+});

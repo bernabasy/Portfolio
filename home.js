@@ -283,3 +283,5 @@ modalsSection.addEventListener('click', (e) => {
     modal.forEach((element) => element.classList.add('hide'));
   }
 });
+
+localStorage.setItem('inputForm', JSON.stringify(contactForm));

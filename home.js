@@ -283,3 +283,5 @@ modalsSection.addEventListener('click', (e) => {
     modal.forEach((element) => element.classList.add('hide'));
   }
 });
+
+const userEmail = document.querySelector('#mail');

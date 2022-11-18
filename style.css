@@ -500,6 +500,15 @@ ul {
   height: 48px;
 }
 
+.msg {
+  font-size: calc(4.5px + 1.3vw);
+  color: red;
+}
+
+.none {
+  display: none;
+}
+
 .btn-default {
   display: flex;
   flex-direction: row;

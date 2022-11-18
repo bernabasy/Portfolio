@@ -284,4 +284,28 @@ modalsSection.addEventListener('click', (e) => {
   }
 });
 
-localStorage.setItem('inputForm', JSON.stringify(contactForm));
+
+const form = document.querySelector('.contacte-form');
+const word = document.querySelector('.msg');
+const Email = document.querySelector('.mail');
+const userName = document.querySelector('.name');
+const userMsg = document.querySelector('.messge');
+form.addEventListener('submit', (e) => {
+  if (Email.value === Email.value.toLowerCase()) {
+    word.textContent = '';
+  } else {
+    e.preventDefault();
+    word.textContent = 'The email must be in lowercase';
+  }
+});
+
+form.addEventListener("input", () =>{
+  const contactForm = {
+    name: userName.value, 
+    email: Email.value,
+    message: userMsg.value
+  }; 
+
+localStorage.setItem("inputForm", JSON.stringify(contactForm));
+console.log(inputForm)
+});

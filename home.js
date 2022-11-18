@@ -287,6 +287,8 @@ modalsSection.addEventListener('click', (e) => {
 const form = document.querySelector('.contacte-form');
 const word = document.querySelector('.msg');
 const Email = document.querySelector('.mail');
+const userName = document.querySelector('.name');
+const userMsg = document.querySelector('.messge');
 form.addEventListener('submit', (e) => {
   if (Email.value === Email.value.toLowerCase()) {
     word.textContent = '';
@@ -295,3 +297,33 @@ form.addEventListener('submit', (e) => {
     word.textContent = 'The email must be in lowercase';
   }
 });
+
+form.addEventListener('input', () => {
+  const contactForm = {
+    name: userName.value,
+    email: Email.value,
+    message: userMsg.value,
+  };
+
+  localStorage.setItem('inputForm', JSON.stringify(contactForm));
+});
+
+window.onload = () => {
+  let savedFormData = localStorage.getItem('inputForm');
+
+  savedFormData = JSON.parse(savedFormData);
+
+  // Check if the form data object is found on localStorage
+
+  if (savedFormData) {
+  // populate inputs values if data was found
+    const Email2 = document.querySelector('.mail');
+    const userName2 = document.querySelector('.name');
+    const userMsg2 = document.querySelector('.messge');
+
+    // ex: nameInput.value = savedFormData.name
+    Email2.value = savedFormData.email;
+    userName2.value = savedFormData.name;
+    userMsg2.value = savedFormData.message;
+  }
+};

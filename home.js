@@ -284,7 +284,6 @@ modalsSection.addEventListener('click', (e) => {
   }
 });
 
-
 const form = document.querySelector('.contacte-form');
 const word = document.querySelector('.msg');
 const Email = document.querySelector('.mail');
@@ -301,10 +300,10 @@ form.addEventListener('submit', (e) => {
 
 form.addEventListener('input', () => {
   const contactForm = {
-    name: userName.value, 
+    name: userName.value,
     email: Email.value,
     message: userMsg.value,
-  }; 
+  };
 
-localStorage.setItem('inputForm', JSON.stringify(contactForm));
+  localStorage.setItem('inputForm', JSON.stringify(contactForm));
 });

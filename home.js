@@ -299,12 +299,12 @@ form.addEventListener('submit', (e) => {
   }
 });
 
-form.addEventListener("input", () =>{
+form.addEventListener('input', () => {
   const contactForm = {
     name: userName.value, 
     email: Email.value,
-    message: userMsg.value
+    message: userMsg.value,
   }; 
 
-localStorage.setItem("inputForm", JSON.stringify(contactForm));
+localStorage.setItem('inputForm', JSON.stringify(contactForm));
 });

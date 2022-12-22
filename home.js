@@ -10,8 +10,18 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 }));
 
 const projectsCard = [
-  {
+   {
     id: '1',
+    image: 'image/to-do-list.png',
+    tittle: 'To-Do List',
+    infoProject: ['MICROVERSE', 'Full Stack Dev', '2022'],
+    description: 'In this project, I built a to-do list app, which is inspired by the minimalist website. Build withHTML/CSS & JavaScript best practices: Correct use of tags, elements, properties and syntax.',
+    technologies: ['html', 'Webpack', 'css', 'javaScript'],
+    linkLiveVersion: 'https://bernabasy.github.io/ToDo_list/',
+    linkSource: 'https://github.com/bernabasy/ToDo_list',
+  },
+  {
+    id: '2',
     image: 'image/card1.png',
     tittle: 'Tonic',
     infoProject: ['CANOPY', 'Back End Dev', '2015'],
@@ -22,7 +32,7 @@ const projectsCard = [
   },
 
   {
-    id: '2',
+    id: '3',
     image: 'image/card2.png',
     tittle: 'Multi-Post Stories',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
@@ -33,7 +43,7 @@ const projectsCard = [
   },
 
   {
-    id: '3',
+    id: '4',
     image: 'image/card3.png',
     tittle: 'Facebook 360',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
@@ -44,7 +54,7 @@ const projectsCard = [
   },
 
   {
-    id: '4',
+    id: '5',
     image: 'image/card4.png',
     tittle: 'Uber Navigation',
     infoProject: ['Uber', 'Lead Developer', '2018'],

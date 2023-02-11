@@ -23,12 +23,12 @@ const projectsCard = [
   {
     id: '2',
     image: 'image/card1.png',
-    tittle: 'Tonic',
-    infoProject: ['CANOPY', 'Back End Dev', '2015'],
-    description: ' Experimental content creation feature that allows users to add to an existing story over the course of a day without spamming their friends. ',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://bernabasy.github.io/poritipholio/',
-    linkSource: 'https://github.com/bernabasy/poritipholio',
+    tittle: 'Movie-App',
+    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
+    description: 'Movie-App is a web based app that allows you to view movies and add likes and comments on your favourite movies.',
+    technologies: ['html', 'Webpack', 'css', 'javaScript'],
+    linkLiveVersion: 'https://bernabasy.github.io/Movie-App/',
+    linkSource: 'https://github.com/bernabasy/Movie-App',
   },
 
   {

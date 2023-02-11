@@ -22,7 +22,7 @@ const projectsCard = [
   },
   {
     id: '2',
-    image: 'image/card1.png',
+    image: 'image/movi app.png',
     tittle: 'Movie-App',
     infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
     description: 'Movie-App is a web based app that allows you to view movies and add likes and comments on your favourite movies.',

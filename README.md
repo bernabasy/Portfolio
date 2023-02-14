@@ -5,7 +5,7 @@
 > my portfolio
 > 
  # Live Link
-[Live Preview](https://bernabasy.github.io/poritipholio/)
+[Live Preview](https://www.linkedin.com/in/bernabasjosef/)
 
 
 ## Built With

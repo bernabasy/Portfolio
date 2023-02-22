@@ -26,7 +26,7 @@ const projectsCard = [
     tittle: 'Movie-App',
     infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
     description: 'Movie-App is a web based app that allows you to view movies and add likes and comments on your favourite movies.',
-    technologies: ['html', 'Webpack', 'css', 'javaScript'],
+    technologies: ['React', 'Redux', 'Bootstrap', 'Jsx'],
     linkLiveVersion: 'https://bernabasy.github.io/Movie-App/',
     linkSource: 'https://github.com/bernabasy/Movie-App',
   },
@@ -34,12 +34,12 @@ const projectsCard = [
   {
     id: '3',
     image: 'image/card2.png',
-    tittle: 'Multi-Post Stories',
-    infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: " Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://bernabasy.github.io/poritipholio/',
-    linkSource: 'https://github.com/bernabasy/poritipholio',
+    tittle: 'Crypto-Coin-Market-Cap',
+    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
+    description: "The Crypto Web-app is a website built-with react/redux and Bootstrap. It gives us a real time data on crypto currency: It display a list of Crypto. It also gives us name of Crypto, its image, average price, update on todays lowest price, and update on todays highest price, including its Algorithm..",
+    technologies: ['React', 'Redux', 'Bootstrap', 'Jsx'],
+    linkLiveVersion: 'https://cryptocurrency-news.onrender.com/',
+    linkSource: 'https://github.com/bernabasy/Crypto-Coin-Market-Cap',
   },
 
   {

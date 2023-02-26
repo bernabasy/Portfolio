@@ -10,7 +10,7 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 }));
 
 const projectsCard = [
-   {
+  {
     id: '1',
     image: 'image/to-do-list.png',
     tittle: 'To-Do List',

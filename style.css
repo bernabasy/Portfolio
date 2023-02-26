@@ -375,7 +375,6 @@ ul {
   margin-bottom: 10px;
   text-decoration: none;
   list-style: none;
-  display: flex;
   gap: 20px;
 }
 
@@ -531,8 +530,6 @@ ul {
 @media (min-width: 768px) {
   .wrapper {
     width: 100%;
-
-    /* align-items: center; */
     max-height: 5125px;
     background: #f8f7f7;
   }

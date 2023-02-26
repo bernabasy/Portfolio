@@ -36,7 +36,7 @@ const projectsCard = [
     image: 'image/card2.png',
     tittle: 'Multi-Post Stories',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: " Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    description: 'Exploring the future of media in Facebook first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.',
     technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
     linkLiveVersion: 'https://bernabasy.github.io/poritipholio/',
     linkSource: 'https://github.com/bernabasy/poritipholio',

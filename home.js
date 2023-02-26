@@ -36,7 +36,7 @@ const projectsCard = [
     image: 'image/Screenshot-Detail-Desktop.png',
     tittle: 'Crypto-Coin-Market-Cap',
     infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
-    description: 'The Crypto Web-app is a website built-with react/redux and Bootstrap. It gives us a real time data on crypto currency: It display a list of Crypto. It also gives us name of Crypto, its image, average price, update on todays lowest price, and update on todays highest price, including its Algorithm.,
+    description: 'The Crypto Web-app is a website built-with react/redux and Bootstrap. It gives us a real time data on crypto currency: It display a list of Crypto. It also gives us name of Crypto, its image, average price, update on todays lowest price, and update on todays highest price, including its Algorithm',
     technologies: ['React', 'Redux', 'Bootstrap', 'Jsx'],
     linkLiveVersion: 'https://cryptocurrency-news.onrender.com/',
     linkSource: 'https://github.com/bernabasy/Crypto-Coin-Market-Cap',

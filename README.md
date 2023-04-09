@@ -9,9 +9,9 @@
 
 
 ## Built With
-
-- html
-- css
+ 
+- HTML
+- CSS
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.

@@ -1,7 +1,5 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-# portfolio
-
 > my portfolio
 > 
  # Live Link

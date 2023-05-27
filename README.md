@@ -51,7 +51,7 @@ Give a ⭐️ if you like this project!
 
 - thanks microvers for your templets
 - thenks coding paretiners for your suport
--
+
 
 ## 📝 License
 

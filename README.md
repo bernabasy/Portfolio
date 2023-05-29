@@ -1,7 +1,7 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 > my portfolio
-> 
+
  # Live Link
 [Live Preview](https://bernabasy.github.io/Portfolio/)
 
@@ -29,7 +29,7 @@ To get a local copy up and running follow these simple steps:
 
 - With the files open in Visual Studio Code, press the **Go Live** button at the bottom of the window to launch the files with [Live Server](https://marketplace.visualstudio.com/items?itemName=ritwickdey.LiveServer).
 
-## Author
+ Author
 
 👤 **bernabas yosef**
 

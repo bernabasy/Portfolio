@@ -45,10 +45,10 @@ const projectsCard = [
   {
     id: '4',
     image: 'image/card3.png',
-    tittle: 'Facebook 360',
+    tittle: 'Ride royale',
     infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
     description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
+    technologies: ['html', 'Ruby on rails', 'css', 'React/Redux'],
     linkLiveVersion: 'https://bernabasy.github.io/poritipholio/',
     linkSource: 'https://github.com/bernabasy/poritipholio',
   },

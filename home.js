@@ -46,11 +46,11 @@ const projectsCard = [
     id: '4',
     image: 'image/card3.png',
     tittle: 'Ride royale',
-    infoProject: ['FACEBOOK', 'Full Stack Dev', '2015'],
-    description: "Exploring the future of media in Facebook's first Virtual Reality app; a place to discover and enjoy 360 photos and videos on Gear VR.",
+    infoProject: ['ride-royale-front-end', 'Full Stack Dev', '2023'],
+    description: "This project is designed for the reservation of fancy cars. If you are preparing for a special day or event and you want a cool car for it, this website is the best place for you. If you have a luxurious car and want to make some extra money from it, you can add it to our website and others will be able to reserve it!",
     technologies: ['html', 'Ruby on rails', 'css', 'React/Redux'],
-    linkLiveVersion: 'https://bernabasy.github.io/poritipholio/',
-    linkSource: 'https://github.com/bernabasy/poritipholio',
+    linkLiveVersion: "didn't hosted yet",
+    linkSource: 'https://github.com/bernabasy/ride-royale-front-end',
   },
 
   {

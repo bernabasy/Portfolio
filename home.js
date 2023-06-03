@@ -49,7 +49,7 @@ const projectsCard = [
     infoProject: ['ride-royale-front-end', 'Full Stack Dev', '2023'],
     description: "This project is designed for the reservation of fancy cars. If you are preparing for a special day or event and you want a cool car for it, this website is the best place for you. If you have a luxurious car and want to make some extra money from it, you can add it to our website and others will be able to reserve it!",
     technologies: ['html', 'Ruby on rails', 'css', 'React/Redux'],
-    linkLiveVersion: "didn't hosted yet",
+    linkLiveVersion: "empty",
     linkSource: 'https://github.com/bernabasy/ride-royale-front-end',
   },
 

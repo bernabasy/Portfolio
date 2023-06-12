@@ -49,8 +49,8 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-- thanks microvers for your templets
-- thenks coding paretiners for your suport
+- Thanks microvers for your templets
+- Thenks coding paretiners for your suport
 
 
 ## 📝 License

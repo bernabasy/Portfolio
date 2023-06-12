@@ -220,7 +220,7 @@ ul {
 .imgContainer,
 .image {
   width: 100%;
-  height: auto;
+  height: 50vh;
   min-height: 200px;
   min-width: 250px;
   border-radius: 20px;
@@ -323,6 +323,7 @@ ul {
   color: #396df2;
   cursor: pointer;
   transition: all 0.3s ease-in-out;
+  text-decoration: none;
 }
 
 .project-button:hover {
@@ -542,6 +543,7 @@ ul {
   .nav-container {
     display: flex;
     justify-content: space-between;
+    position: fixed;
     padding-inline: 3%;
   }
 
@@ -743,7 +745,7 @@ ul {
 
   .social-media-2 {
     margin-top: 10px;
-    margin-bottom: 10px;
+    margin-bottom: 20px;
     text-decoration: none;
     list-style: none;
     display: flex;
@@ -909,4 +911,139 @@ ul {
     justify-content: flex-start;
     flex-wrap: wrap;
   }
+}
+
+/* Skill section  */
+
+.skill-section {
+  list-style: none;
+  margin: 0;
+  margin-top: 24px;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+.skill__header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 24px 12px;
+}
+
+.skill__header.closed {
+  border-bottom: solid 1px #dfe1e6;
+}
+
+.skill__title {
+  color: #000;
+  font-size: 20px;
+  font-weight: 500;
+  line-height: 24px;
+  margin: 0;
+}
+
+.skill__container {
+  margin: 0;
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  padding: 12px;
+  gap: 12px;
+}
+
+.skill__container.hidden {
+  display: none;
+}
+
+.skill__item {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  padding: 9px 12px;
+  background-color: #f7f7f9;
+  border-radius: 8px;
+}
+
+.skill__name {
+  font-size: 15px;
+  font-weight: 500;
+  line-height: 20px;
+  color: #253858;
+}
+
+.skill__logo {
+  width: 48px;
+  height: 48px;
+}
+
+.skill__toggle {
+  background: #ccc5;
+  border: none;
+  cursor: pointer;
+  width: 25px;
+  height: 25px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 50%;
+  transition: all 0.2s;
+}
+
+.skill__toggle-arrow {
+  width: 15px;
+  height: 15px;
+}
+
+.skill__toggle-arrow.upward {
+  transform: rotate(180deg);
+}
+
+.skill__toggle:hover,
+.skill__toggle:active {
+  background-color: #7f8cff;
+}
+
+@keyframes rotation {
+  0% {
+    transform: rotate(0deg);
+  }
+
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+/* || DESKTOP VERSION  */
+
+@media (min-width: 769px) {
+  /* Remove hamburger and display nav links */
+  .skill-section {
+    margin: 0;
+    flex: 1;
+    max-width: 60vw;
+  }
+
+  .skill__container {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .skill__item {
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1;
+  }
+}
+
+.social-media li a:hover img,
+.social-media-2 li a:hover img {
+  cursor: pointer;
+  font-size: 3.5rem;
+  transform: scale(2, 2);
+  transition: all 0.5s;
+}
+
+.nav-item:hover {
+  color: #3346f6;
 }

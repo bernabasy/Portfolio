@@ -7,6 +7,7 @@
     <link rel="shortcut icon" href="">
     <link rel="stylesheet" href="style.css" />
     <script src="home.js" defer></script>
+    <script src="skills.js" defer></script>
     <title id="portfolio">Portfolio</title>
   </head>
   <body class="flex">
@@ -47,7 +48,7 @@
                 ><img src="image/tw.png" alt="Twitter"
               /></a>
             </li>
-            <li>
+            <li class="icon-holder">
               <a href="#"><img
                   src="image/linkedin.png" alt="linkedin"/></a>
             </li>
@@ -111,52 +112,67 @@
                 /></a>
               </li>
             </ul>
-            <button class="project-button" type="button">Get my resume</button>
+            <!-- <button class="project-button" type="button">Get my resume</button> -->
+            <a
+            href="https://docs.google.com/document/d/1v0XLMtY_rUxWNvtqHworlUrTc2aRlYWm4nk6kkFhInM/edit?usp=sharing"
+            target="_blank"
+            class="project-button"
+            rel="noopener"
+            >Get my resume</a>
           </div>
-          <div class="right-box-of-about-myself">
-           <ul class="skill-list">
-            <li class="my-skill">
-              <div class="skill-container">
-                <h2 class="skill-title">Languages</h2>
-                <button class="btn-chev" type="button">
-                  <img src="image/chev-dow.svg" alt="arrow" />
-                </button>
-              </div>
-              <ul class="language-list">
-                <li>
-                  <img src="image/javascript.svg" alt="JavaScript img" />
-                  JavaScript
-                </li>
-                <li>
-                  <img src="image/html.svg" alt="HTML img" />
-                  HTML
-                </li>
-                <li>
-                  <img src="image/css.svg" alt="CSS img" />
-                  CSS
-                </li>
-              </ul>
-            </li>
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Frameworks</h3>
-                <button class="btn-chev" type="button">
-                  <img src="image/chev-right.svg" alt="right arrow" />
-                </button>
-              </div>
-              <div class="separator-line"></div>
-            </li>
-            <li class="my-skill">
-              <div class="skill-container">
-                <h3 class="skill-title">Skills</h3>
-                <button class="btn-chev" type="button">
-                  <img src="image/chev-right.svg" alt="right arrow" />
-                </button>
-              </div>
-              <div class="separator-line"></div>
-            </li>
-           </ul>
-         </div>
+           <!-- Skill Section  -->
+      <!-- Frontend Skills  -->
+      <section class="skill-section">
+        <article class="skill">
+          <header class="skill__header" id="frontend-header">
+            <h3 class="skill__title">Front End</h3>
+            <button type="button" id="frontend-toggle" class="skill__toggle">
+              <img
+        
+                src="image/chev-dow.svg" 
+                alt="arrow"
+                class="skill__toggle-arrow upward"
+              />
+            </button>
+          </header>
+          <ul id="frontend-container" class="skill__container">
+            <!-- This section will load dynamically  -->
+          </ul>
+        </article>
+        <!-- Backend Skills  -->
+        <article class="skill">
+          <header class="skill__header closed" id="backend-header">
+            <h3 class="skill__title">Back End</h3>
+            <button type="button" id="backend-toggle" class="skill__toggle">
+              <img
+              src="image/chev-dow.svg" 
+                alt="arrow"
+                class="skill__toggle-arrow"
+              />
+            </button>
+          </header>
+          <ul id="backend-container" class="skill__container hidden">
+            <!-- This section will load dynamically  -->
+          </ul>
+        </article>
+        <!-- Practices -->
+        <article class="skill">
+          <header class="skill__header closed" id="practices-header">
+            <h3 class="skill__title">Practices</h3>
+            <button type="button" id="practices-toggle" class="skill__toggle">
+              <img
+              src="image/chev-dow.svg" 
+                alt="arrow"
+                class="skill__toggle-arrow"
+              />
+            </button>
+          </header>
+          <ul id="practices-container" class="skill__container hidden">
+            <!-- This section will load dynamically  -->
+          </ul>
+        </article>
+      </section>
+    </section>
         </section>
          
             <!-- contact me section -->

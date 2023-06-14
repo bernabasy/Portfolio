@@ -12,56 +12,55 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 const projectsCard = [
   {
     id: '1',
-    image: 'image/to-do-list.png',
-    tittle: 'To-Do List',
-    infoProject: ['MICROVERSE', 'Full Stack Dev', '2022'],
-    description: 'In this project, I built a to-do list app, which is inspired by the minimalist website. Build withHTML/CSS & JavaScript best practices: Correct use of tags, elements, properties and syntax.',
-    technologies: ['html', 'Webpack', 'css', 'javaScript'],
-    linkLiveVersion: 'https://bernabasy.github.io/ToDo_list/',
-    linkSource: 'https://github.com/bernabasy/ToDo_list',
+    image: 'image/budget.png',
+    tittle: 'Movie-App',
+    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
+    description: 'Budget management web application empowering users to effortlessly track and organize expenses while providing seamless functionality for viewing, adding, and deleting categories and purchases.',
+    technologies: ['Ruby on rails', 'Bootstrap', 'Jsx'],
+    linkLiveVersion: 'https://budget-app-rails-9xci.onrender.com/',
+    linkSource: 'https://github.com/bernabasy/Budget-app',
   },
   {
     id: '2',
-    image: 'image/movie app.png',
-    tittle: 'Movie-App',
-    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
-    description: 'Movie-App is a web based app that allows you to view movies and add likes and comments on your favourite movies.',
-    technologies: ['React', 'Redux', 'Bootstrap', 'Jsx'],
-    linkLiveVersion: 'https://bernabasy.github.io/Movie-App/',
-    linkSource: 'https://github.com/bernabasy/Movie-App',
-  },
-
-  {
-    id: '3',
     image: 'image/Screenshot-Detail-Desktop.png',
     tittle: 'Crypto-Coin',
     infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
-    description: 'It also gives us name of Crypto, its image, average price, update on todays lowest price, and update on todays highest price, including its Algorithm',
+    description: 'Web app that gives us real-time data on cryptocurrency. Displays a list of Cryptos, including their name, image, average price, todays lowest price today highest price, and algorithm.',
     technologies: ['React', 'Redux', 'Bootstrap', 'Jsx'],
     linkLiveVersion: 'https://cryptocurrency-news.onrender.com/',
     linkSource: 'https://github.com/bernabasy/Crypto-Coin-Market-Cap',
   },
+  {
+    id: '3',
+    image: 'image/to-do-list.png',
+    tittle: 'To-Do List',
+    infoProject: ['MICROVERSE', 'Front-end', '2022'],
+    description: 'In this project, I built a to-do list app, which is inspired by the minimalist website. Build withHTML/CSS & JavaScript best practices: Correct use of tags, elements, properties and syntax.',
+    technologies: ['html', 'Webpack', 'css', 'javaScript'],
+    linkLiveVersion: 'https://to-do-list-ochre-mu.vercel.app/',
+    linkSource: 'https://github.com/bernabasy/ToDo_list',
+  },
 
   {
     id: '4',
-    image: 'image/card3.png',
-    tittle: 'Ride royale',
-    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
-    description: 'This project is designed for the reservation of fancy cars. If you are preparing for a special day or event and you want a cool car for it, this website is the best place for you. If you have a luxurious car and want to make some extra money from it, you can add it to our website and others will be able to reserve it!',
-    technologies: ['html', 'Ruby on rails', 'css', 'React/Redux'],
-    linkLiveVersion: 'empty',
-    linkSource: 'https://github.com/bernabasy/ride-royale-front-end',
+    image: 'image/world-conference.png',
+    tittle: 'world conference alerts',
+    infoProject: ['MICROVERSE', 'Front-end', '2022'],
+    description: 'User-friendly informative website that shows world conference alerts. Provides users with all conference information, including dates, times, locations, and speakers.',
+    technologies: ['html', 'css', 'javaScript'],
+    linkLiveVersion: 'https://bernabasy.github.io/World-conference-alerts/',
+    linkSource: 'https://github.com/bernabasy/World-conference-alerts',
   },
 
   {
     id: '5',
-    image: 'image/card4.png',
-    tittle: 'Uber Navigation',
-    infoProject: ['Uber', 'Lead Developer', '2018'],
-    description: 'A smart assistant to make driving more safe, efficient, and fun by unlocking your most expensive computer: your car.',
-    technologies: ['html', 'Ruby on rails', 'css', 'javaScript'],
-    linkLiveVersion: 'https://bernabasy.github.io/poritipholio/',
-    linkSource: 'https://github.com/bernabasy/poritipholio',
+    image: 'image/book.png',
+    tittle: 'Bookstore',
+    infoProject: ['MICROVERSE', 'Front-end', '2023'],
+    description: 'Bookstore is a Minimum Viable Product (MVP) website built with React and Redux. It allows users to: Display a list of books, Add a book, Remove a selected book, The Bookstore project was created to demonstrate my skills in React, Redux, and web development in general. The project is still under development.',
+    technologies: ['React', 'Redux', 'CSS', 'Jsx'],
+    linkLiveVersion: 'https://bernabasy-bookstore.onrender.com/',
+    linkSource: 'https://github.com/bernabasy/Bookstore',
   },
 ];
 
@@ -223,7 +222,7 @@ const createModal = () => {
     languages.classList.add('categories', 'categ-modal');
     technologiesModal.appendChild(languages);
 
-    modal.technologies.push('github', 'ruby', 'Bootstraps');
+    modal.technologies.push('github', 'Bootstraps');
     modal.technologies.splice(1, 1);
 
     modal.technologies.forEach((lang, index) => {

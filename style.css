@@ -26,8 +26,8 @@ header {
 }
 
 .rotate {
-  height: 8vh;
-  width: 10vh;
+  height: 4vh;
+  width: 5vh;
   margin-left: 20%;
   border-radius: 3vh;
 }
@@ -550,9 +550,12 @@ ul {
     padding-inline: 3%;
   }
 
-  /* .logo {
-    height: 10px;
-  } */
+  .rotate {
+    height: 8vh;
+    width: 10vh;
+    margin-left: 20%;
+    border-radius: 3vh;
+  }
 
   .closebtn {
     display: none;

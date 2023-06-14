@@ -15,7 +15,7 @@ body {
 }
 
 .wrapper {
-  width: 375px;
+  margin-inline: 5%;
 }
 
 header {
@@ -138,8 +138,6 @@ header {
     align-items: flex-start;
     color: #fff;
     text-align: left;
-
-    /* margin-left: -200px; */
     padding: 0;
   }
 }
@@ -147,7 +145,6 @@ header {
 section {
   display: grid;
   grid-template-columns: 1fr;
-  padding: 114px 14px;
   gap: 12px;
 }
 
@@ -163,9 +160,11 @@ ul {
 
 .title {
   font-weight: 700;
-  font-size: 38px;
+  font-size: 4vh;
   line-height: 52px;
   color: #091e42;
+  padding-left: 5%;
+  padding-top: 5%;
   animation: text-blink 2s infinite;
   align-items: center;
 }
@@ -185,6 +184,11 @@ ul {
   font-size: 1.8vh;
   line-height: 24px;
   color: #344563;
+  width: 80%;
+  padding: 5px;
+  border: 2px solid #390101b9;
+  box-shadow: 0 0 6px 0 #6d6868;
+  margin-inline: auto;
 }
 
 .contact-title {
@@ -353,6 +357,7 @@ ul {
   font-size: 40px;
   line-height: 52px;
   color: #172b4d;
+  margin: 5%;
 }
 
 .details-2 {
@@ -360,8 +365,7 @@ ul {
   font-size: 2vh;
   color: #344563;
   letter-spacing: 0.37px;
-  margin-bottom: 20px;
-  margin-top: 10px;
+  margin: 10px;
 }
 
 .contact-title-2 {
@@ -813,6 +817,7 @@ ul {
     gap: 24px;
     width: 550px;
     height: 577px;
+    margin: 5vh;
   }
 
   .shaps {

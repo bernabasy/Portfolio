@@ -26,10 +26,14 @@ header {
 }
 
 .rotate {
-  height: 30px;
-  width: 30px;
-  margin-left: 20%;
-  border-radius: 20px;
+  color: #fff;
+  text-underline-offset: 50px;
+  height: auto;
+  font-style: oblique;
+  font-weight: 700;
+  font-size: medium;
+  margin-left: 35%;
+  text-align: center;
 }
 
 .humburger {
@@ -562,13 +566,6 @@ ul {
     justify-content: space-between;
     position: fixed;
     padding-inline: 3%;
-  }
-
-  .rotate {
-    height: 8vh;
-    width: 10vh;
-    margin-left: 20%;
-    border-radius: 3vh;
   }
 
   .closebtn {

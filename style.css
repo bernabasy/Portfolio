@@ -223,7 +223,6 @@ ul {
   background: #fff;
   margin-inline: 10%;
   box-shadow: 0 0 8px 0 #6d6868;
-  height: fit-content;
 }
 
 .imgContainer,
@@ -839,8 +838,7 @@ ul {
 .modal-container {
   z-index: 1;
   position: fixed;
-
-  /* left: 0; */
+  left: 0;
   top: 0;
   bottom: 0;
   right: 0;
@@ -874,7 +872,7 @@ ul {
 }
 
 .modal12 {
-  margin-bottom: 20%;
+  margin-bottom: 12px;
 }
 
 .modal-tecnologies {
@@ -911,6 +909,10 @@ ul {
   .overlay-card {
     padding: 24px;
     margin-inline: 5%;
+  }
+
+  .modal28 {
+    /* margin-bottom: 28px; */
   }
 
   .img-modal {

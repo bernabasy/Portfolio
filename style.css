@@ -26,10 +26,10 @@ header {
 }
 
 .rotate {
-  height: 4vh;
-  width: 5vh;
+  height: 30px;
+  width: 30px;
   margin-left: 20%;
-  border-radius: 3vh;
+  border-radius: 20px;
 }
 
 .humburger {

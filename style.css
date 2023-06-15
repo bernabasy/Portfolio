@@ -14,9 +14,9 @@ body {
   display: flex;
 }
 
-.wrapper {
-  margin-inline: 5%;
-}
+/* .wrapper {
+  padding-inline: 5%;
+} */
 
 header {
   justify-content: space-between;
@@ -91,7 +91,7 @@ header {
     opacity: 0.95;
     text-align: left;
     transition: 0.5s;
-    padding-left: 100px;
+    padding-left: 50px;
   }
 
   .nav-items.active {
@@ -197,12 +197,14 @@ ul {
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
+  margin-left: 3%;
 }
 
 .social-media {
   text-decoration: none;
   list-style: none;
   gap: 20px;
+  margin-left: 3%;
 }
 
 /* style for work section */
@@ -316,6 +318,7 @@ ul {
 .project-button {
   width: fit-content;
   padding: 10px;
+  margin-left: 3%;
   font-weight: 500;
   font-size: 17px;
   line-height: 24px;
@@ -374,6 +377,7 @@ ul {
   line-height: 24px;
   color: #7f8cff;
   text-decoration: none;
+  margin-left: 3%;
 }
 
 .social-media-2 {
@@ -382,6 +386,7 @@ ul {
   text-decoration: none;
   list-style: none;
   gap: 20px;
+  margin-left: 3%;
 }
 
 .skill-list {
@@ -439,24 +444,29 @@ ul {
 
 .title-2 {
   font-weight: 700;
-  font-size: 40px;
+  font-size: 4vh;
   line-height: 28px;
   text-align: center;
+  margin-top: 20%;
   color: #fffefe;
 }
 
 .project-text2 {
-  font-size: 1.8vh;
-
-  /* line-height: 28px; */
+  /* font-weight: 400; */
   text-align: center;
-  width: 100%;
+  margin-top: 1vh;
   color: #ffff;
-  margin-bottom: 5px;
-  margin-top: 10px;
 }
 
 /* <!-- contact me section --> */
+
+.contact-me-container {
+  width: 70%;
+  display: flex;
+  flex-direction: column;
+  margin-inline: auto;
+  margin-top: 2vh;
+}
 
 .contacte-me {
   background-color: #191765;
@@ -759,7 +769,7 @@ ul {
     line-height: 24px;
     color: #7f8cff;
     text-decoration: none;
-    padding-left: 1%;
+    padding-left: 3%;
   }
 
   .social-media-2 {
@@ -769,6 +779,7 @@ ul {
     list-style: none;
     display: flex;
     gap: 20px;
+    margin-left: 3%;
   }
 
   .language-list {
@@ -798,6 +809,8 @@ ul {
     border-top-left-radius: 60px;
     width: 100%;
     background-size: 85%;
+    display: flex;
+    justify-content: center;
   }
 
   .project-text2 {
@@ -818,6 +831,10 @@ ul {
     width: 550px;
     height: 577px;
     margin: 5vh;
+  }
+
+  .title-2 {
+    margin-top: 3px;
   }
 
   .shaps {

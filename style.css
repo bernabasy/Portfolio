@@ -25,17 +25,6 @@ header {
   background-color: #191765;
 }
 
-.rotate {
-  color: #fff;
-  text-underline-offset: 50px;
-  height: auto;
-  font-style: oblique;
-  font-weight: 700;
-  font-size: medium;
-  margin-left: 35%;
-  text-align: center;
-}
-
 .humburger {
   display: none;
 }

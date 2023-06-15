@@ -174,8 +174,10 @@ ul {
 
 .details {
   font-weight: 500;
-  font-size: 1.8vh;
-  line-height: 24px;
+
+  /* font-size: 1.8vh; */
+
+  /* line-height: 24px; */
   color: #344563;
   width: 80%;
   padding: 5px;
@@ -221,6 +223,7 @@ ul {
   background: #fff;
   margin-inline: 10%;
   box-shadow: 0 0 8px 0 #6d6868;
+  height: fit-content;
 }
 
 .imgContainer,
@@ -259,7 +262,7 @@ ul {
   align-items: center;
   gap: 1vh;
   color: #6b778c;
-  font-size: 1vh;
+  font-size: 0.6rem;
 }
 
 .categories {
@@ -286,16 +289,19 @@ ul {
 
 .button2 {
   width: fit-content;
-  height: 48;
-  border-radius: 8px;
+
+  /* height: 48; */
+  border-radius: 15%;
   background: #fff;
   border: 1px solid #6070ff;
   display: flex;
   align-items: center;
-  padding: 12px;
-  font-size: 17px;
+  padding: 2%;
+
+  /* font-size: 17px; */
   font-weight: 500;
-  line-height: 24px;
+
+  /* line-height: 24px; */
   color: #396df2;
 }
 
@@ -833,7 +839,8 @@ ul {
 .modal-container {
   z-index: 1;
   position: fixed;
-  left: 0;
+
+  /* left: 0; */
   top: 0;
   bottom: 0;
   right: 0;
@@ -867,7 +874,7 @@ ul {
 }
 
 .modal12 {
-  margin-bottom: 12px;
+  margin-bottom: 20%;
 }
 
 .modal-tecnologies {
@@ -903,11 +910,7 @@ ul {
 @media screen and (min-width: 768px) {
   .overlay-card {
     padding: 24px;
-    margin-inline: 20%;
-  }
-
-  .modal28 {
-    margin-bottom: 28px;
+    margin-inline: 5%;
   }
 
   .img-modal {

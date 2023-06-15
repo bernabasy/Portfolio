@@ -315,6 +315,9 @@ form.addEventListener('input', () => {
   };
 
   localStorage.setItem('inputForm', JSON.stringify(contactForm));
+  userName.value == '';
+  Email.value == '';
+  userMsg.value == '';
 });
 
 window.onload = () => {

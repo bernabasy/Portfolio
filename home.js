@@ -13,7 +13,7 @@ const projectsCard = [
   {
     id: '1',
     image: 'image/budget.png',
-    tittle: 'Movie-App',
+    tittle: 'Budget App',
     infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
     description: 'Budget management web application empowering users to effortlessly track and organize expenses while providing seamless functionality for viewing, adding, and deleting categories and purchases.',
     technologies: ['Ruby on rails', 'Bootstrap', 'Jsx'],

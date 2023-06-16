@@ -315,15 +315,13 @@ form.addEventListener('input', () => {
   };
 
   localStorage.setItem('inputForm', JSON.stringify(contactForm));
-  userName.value == '';
-  Email.value == '';
-  userMsg.value == '';
 });
 
 window.onload = () => {
   let savedFormData = localStorage.getItem('inputForm');
 
   savedFormData = JSON.parse(savedFormData);
+  form.reset();
 
   // Check if the form data object is found on localStorage
 
@@ -339,3 +337,9 @@ window.onload = () => {
     userMsg2.value = savedFormData.message;
   }
 };
+
+form.addEventListener('submit', (e) => {
+  e.preventDefault();
+  form.submit();
+  form.reset();
+});

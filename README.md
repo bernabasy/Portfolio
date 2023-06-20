@@ -10,12 +10,13 @@
  
 - HTML
 - CSS
+- JavaScript 
 
 ## Getting Started
 To get a local copy up and running, follow the steps in Setup below.
 
 ### Prerequisites
-Basic knowledge of HTML, CSS.
+Basic knowledge of HTML, CSS, JavaScript.
 
 ### Setup
 If you installed git you can clone the code to your machine, or download a ZIP of all the files directly.

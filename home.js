@@ -19,6 +19,7 @@ const projectsCard = [
     description: ' Developed a time-effective,  flexible, and Secured financial controlling system.',
     technologies: ['React', 'Node.js', 'React-Native', 'Jsx'],
     linkLiveVersion: 'https://www.youtube.com/watch?v=JpxgqKcP708&ab_channel=bernabasyosef',
+    linkSource: 'https://github.com/bernabasy',
   },
   {
     id: '2',
@@ -28,7 +29,7 @@ const projectsCard = [
     description: 'Developed a user-friendly TalentHub app with optimized search filtering making recruitment and job search easier',
     technologies: ['React.js', 'Node.js', 'Bootstrap', 'Jsx'],
     linkLiveVersion: 'https://www.youtube.com/watch?v=55ZE_iKfJi4&ab_channel=bernabasyosef',
-
+    linkSource: 'https://github.com/bernabasy',
   },
   {
     id: '3',
@@ -38,6 +39,7 @@ const projectsCard = [
     description: 'Developed an innovative HRM and Administrative Tribunals System, managing 1000+ employees with robust conflict resolution mechanisms for the Ministry of Justice of Ethiopa.',
     technologies: ['ASP.NET', 'BootStrap'],
     linkLiveVersion: 'https://www.youtube.com/watch?v=eshKf0lOs0c&ab_channel=bernabasyosef',
+    linkSource: 'https://github.com/bernabasy',
   },
 
   {

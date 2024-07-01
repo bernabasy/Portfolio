@@ -10,35 +10,34 @@ document.querySelectorAll('.nav-item').forEach((n) => n.addEventListener('click'
 }));
 
 const projectsCard = [
+  
   {
     id: '1',
-    image: 'image/budget.png',
-    tittle: 'Budget App',
-    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
-    description: 'Budget management web application empowering users to effortlessly track and organize expenses while providing seamless functionality for viewing, adding, and deleting categories and purchases.',
-    technologies: ['Ruby on rails', 'Bootstrap', 'Jsx'],
-    linkLiveVersion: 'https://budget-app-rails-9xci.onrender.com/',
-    linkSource: 'https://github.com/bernabasy/Budget-app',
+    image: 'image/Accounting.jpg',
+    tittle: 'Accounting APP ',
+    infoProject: ['BOOTSTRAP ICT SOLUTIONS', 'Full Stack Dev', '2024'],
+    description: ' Developed a time-effective,  flexible, and Secured financial controlling system.',
+    technologies: ['React', 'Node.js', 'React-Native', 'Jsx'],
+    linkLiveVersion: 'https://www.youtube.com/watch?v=JpxgqKcP708&ab_channel=bernabasyosef',
   },
   {
     id: '2',
-    image: 'image/Screenshot-Detail-Desktop.png',
-    tittle: 'Crypto-Coin',
-    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
-    description: 'Web app that gives us real-time data on cryptocurrency. Displays a list of Cryptos, including their name, image, average price, todays lowest price today highest price, and algorithm.',
-    technologies: ['React', 'Redux', 'Bootstrap', 'Jsx'],
-    linkLiveVersion: 'https://cryptocurrency-news.onrender.com/',
-    linkSource: 'https://github.com/bernabasy/Crypto-Coin-Market-Cap',
+    image: 'image/Job.png',
+    tittle: 'Job Portal',
+    infoProject: ['BOOTSTRAP ICT SOLUTIONS', 'Full Stack Dev', '2023'],
+    description: 'Developed a user-friendly TalentHub app with optimized search filtering making recruitment and job search easier',
+    technologies: ['React.js', 'Node.js', 'Bootstrap', 'Jsx'],
+    linkLiveVersion: 'https://www.youtube.com/watch?v=55ZE_iKfJi4&ab_channel=bernabasyosef',
+
   },
   {
     id: '3',
-    image: 'image/to-do-list.png',
-    tittle: 'To-Do List',
-    infoProject: ['MICROVERSE', 'Front-end', '2022'],
-    description: 'An educational project which allows the user to enter, delete and edit tasks. It used local storage to store data. Moreover, to enhance user experience, tasks can be edited, deleted, and removed when completed.',
-    technologies: ['html', 'Webpack', 'css', 'javaScript'],
-    linkLiveVersion: 'https://to-do-list-ochre-mu.vercel.app/',
-    linkSource: 'https://github.com/bernabasy/ToDo_list',
+    image: 'image/Hr.png',
+    tittle: 'HRM  System',
+    infoProject: ['BOOTSTRAP ICT SOLUTIONS', 'Ful-Stack', '2023'],
+    description: 'Developed an innovative HRM and Administrative Tribunals System, managing 1000+ employees with robust conflict resolution mechanisms for the Ministry of Justice of Ethiopa.',
+    technologies: ['ASP.NET', 'BootStrap'],
+    linkLiveVersion: 'https://www.youtube.com/watch?v=eshKf0lOs0c&ab_channel=bernabasyosef',
   },
 
   {
@@ -51,17 +50,17 @@ const projectsCard = [
     linkLiveVersion: 'https://bernabasy.github.io/World-conference-alerts/',
     linkSource: 'https://github.com/bernabasy/World-conference-alerts',
   },
-
   {
     id: '5',
-    image: 'image/book.png',
-    tittle: 'Bookstore',
-    infoProject: ['MICROVERSE', 'Front-end', '2023'],
-    description: 'A Minimum Viable Product (MVP) website built with React and Redux. It allows users to: Display a list of books, Add a book, Remove a selected book, The Bookstore project was created to demonstrate my skills in React, Redux, and web development in general. The project is still under development.',
-    technologies: ['React', 'Redux', 'CSS', 'Jsx'],
-    linkLiveVersion: 'https://bernabasy-bookstore.onrender.com/',
-    linkSource: 'https://github.com/bernabasy/Bookstore',
+    image: 'image/budget.png',
+    tittle: 'Budget App',
+    infoProject: ['MICROVERSE', 'Full Stack Dev', '2023'],
+    description: 'Budget management web application empowering users to effortlessly track and organize expenses while providing seamless functionality for viewing, adding, and deleting categories and purchases.',
+    technologies: ['Ruby on rails', 'Bootstrap', 'Jsx'],
+    linkLiveVersion: 'https://budget-app-rails-9xci.onrender.com/',
+    linkSource: 'https://github.com/bernabasy/Budget-app',
   },
+  
 ];
 
 const cardsSection = document.querySelector('.work-card');

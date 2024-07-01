@@ -32,7 +32,7 @@ const projectsCard = [
   },
   {
     id: '3',
-    image: 'image/Hr.png',
+    image: 'image/hr.png',
     tittle: 'HRM  System',
     infoProject: ['BOOTSTRAP ICT SOLUTIONS', 'Ful-Stack', '2023'],
     description: 'Developed an innovative HRM and Administrative Tribunals System, managing 1000+ employees with robust conflict resolution mechanisms for the Ministry of Justice of Ethiopa.',
